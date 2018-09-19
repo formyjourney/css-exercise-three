@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-  background-color:black;
+  background-color: black;
   margin: 0 auto;
   padding: 25px 0 10px 10px;
   position: fixed;
@@ -24,8 +24,8 @@ nav {
 }
 
 .location {
-  background-color:#DCDCDC;
-  border-bottom:solid;
+  background-color: #DCDCDC;
+  border-bottom: solid;
   border-bottom-width: thin;
   margin: 0;
   padding-bottom: 5px;
@@ -33,7 +33,7 @@ nav {
 
 .location:hover {
   background-color: grey;
-  border-style: solid;
+  border-style: thin;
 }
 
 .content {
@@ -44,7 +44,6 @@ nav {
   text-indent: 15px;
   padding-top: 11px;
   padding-bottom: 10px;
-  border-style: solid;
 }
 
 h1 {
@@ -52,7 +51,7 @@ h1 {
   font-size: 18px;
   font-weight: bold;
   font-family: sans-serif;
-  line-height: 1.6;
+  line-height: 0.5;
 }
 
 h3 {
@@ -64,7 +63,8 @@ h3 {
 .arrow {
   float: right;
   font-size: 1em;
-  line-height: 2em;
-  margin-right: 1em;
-  padding-top: 1.75em;
+  line-height: 1em;
+  margin-right: 2em;
+  padding-top: 2.5em;
 }
+
